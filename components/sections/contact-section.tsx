@@ -69,7 +69,8 @@ export function ContactSection() {
                 <input type="hidden" name="from_name" value="LuxeNails Website" />
                 <input type="hidden" name="replyto" value="email" />
 
-                <Input name="name" placeholder="Full Name" className="bg-input border-border" required />
+              <Input name="first_name" placeholder="First Name" className="bg-input border-border" required />
+                  <Input name="last_name" placeholder="Last Name" className="bg-input border-border" required />
                 <Input name="email" placeholder="Email" type="email" className="bg-input border-border" required />
                 <Input name="phone" placeholder="Phone" type="tel" className="bg-input border-border" />
                 <Textarea name="message" placeholder="Message" rows={4} className="bg-input border-border" required />
