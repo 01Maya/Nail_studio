@@ -20,21 +20,22 @@ export function HeroSection() {
             Where elegance meets artistry. Experience premium nail care in our serene, luxury environment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-primary via-accent to-primary hover:from-accent hover:via-primary hover:to-accent transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl"
-            >
-              <Calendar className="w-5 h-5 mr-2" />
-              Book Appointment
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="hover:bg-gradient-to-r hover:from-secondary/20 hover:to-muted/20 transition-all duration-500 bg-transparent backdrop-blur-sm border-primary/30"
-            >
-              <Eye className="w-5 h-5 mr-2" />
-              View Services
-            </Button>
+              <a
+                href="#contact"
+                className="inline-flex items-center px-6 py-3 rounded-lg text-white bg-gradient-to-r from-primary via-accent to-primary
+                          hover:from-accent hover:via-primary hover:to-accent transition-all duration-500 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              >
+                <Calendar className="w-5 h-5 mr-2" />
+                Book Appointment
+              </a>
+              <a
+                href="#services"
+                className="inline-flex items-center px-6 py-3 rounded-lg border border-primary/30 bg-transparent backdrop-blur-sm
+                          hover:bg-gradient-to-r hover:from-secondary/20 hover:to-muted/20 transition-all duration-500"
+              >
+                <Eye className="w-5 h-5 mr-2" />
+                View Services
+              </a>
           </div>
         </div>
       </div>
