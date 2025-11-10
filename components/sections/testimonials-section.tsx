@@ -69,7 +69,7 @@ export function TestimonialsSection() {
               <button
                 key={index}
                 className={`w-3 h-3 rounded-full transition-colors duration-300 ${
-                  index === currentTestimonial ? "bg-primary" : "bg-muted"
+                  index === currentTestimonial ? "bg-primary" : "bg-muted-foreground/40"
                 }`}
                 onClick={() => setCurrentTestimonial(index)}
               />
