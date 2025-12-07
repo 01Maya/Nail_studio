@@ -29,3 +29,23 @@ https://nail-studio-smoky.vercel.app/
 ---
 ## Screenshot
 ![Image](https://github.com/user-attachments/assets/33bb2390-a196-4d78-9341-246141d174f1)
+
+## ⚙️ Installation  
+
+Follow these steps to run the project locally:
+
+```bash
+1. Clone the repository
+   git clone https://github.com/yourusername/zperf-fragrance.git
+
+2. Navigate to the project directory
+   cd zperf-fragrance
+
+3. Install dependencies
+   npm install
+
+4. Start the development server
+   npm run dev
+
+```
+---
