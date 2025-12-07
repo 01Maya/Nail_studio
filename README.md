@@ -41,7 +41,7 @@ Follow these steps to run the project locally:
    git clone https://github.com/yourusername/nail_studio.git
 
 2. Navigate to the project directory
-   cd zperf-fragrance
+   cd nail-studio
 
 3. Install dependencies
    npm install
