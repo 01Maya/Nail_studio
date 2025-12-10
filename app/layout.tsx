@@ -10,8 +10,8 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Luxe Nails Studio ✨ Premium Nail Care & Art💅🏻",
-  description: "Experience luxury nail care with our premium services, expert nail art, and elegant atmosphere.",
+  title: "Luxe Nails Studio ✨ Premium Nail Care & Art 💅🏻",
+  description: "Experience luxury nail care with our premium services, expert nail art, and elegant atmosphere ✨",
 }
 
 export default function RootLayout({
