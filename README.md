@@ -22,7 +22,7 @@ It features **smooth animations, elegant UI, and section-based navigation**, des
 - **shadcn/ui** – Prebuilt elegant UI components  
 
 ---
-## Preview
+## Preview ✨
 
 https://nail-studio-smoky.vercel.app/
 
